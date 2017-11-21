@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-cssmodules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:init": "tailwind init",
+    "watch": "webpack-dev-server --env=dev --hot --colors --progress --profile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "~7.1.6",
+    "css-loader": "~0.28.7",
+    "node-sass": "~4.7.2",
+    "postcss-loader": "~2.0.8",
+    "sass-loader": "~6.0.6",
+    "style-loader": "~0.19.0",
+    "tailwindcss": "~0.2.2",
+    "webpack": "~3.8.1",
+    "webpack-dev-server": "~2.9.4"
+  }
+}
